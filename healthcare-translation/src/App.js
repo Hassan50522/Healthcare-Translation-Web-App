@@ -37,7 +37,7 @@ const HealthcareTranslationApp = () => {
         if (!text) return;
 
         try {
-            const response = await fetch("http://localhost:5000/translate", {
+            const response = await fetch("https://healthcare-translation-web-app-tn5q.onrender.com/translate", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
